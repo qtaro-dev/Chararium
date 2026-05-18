@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "categories": [
+    { "id": "greeting", "label": "起動・挨拶", "description": "起動時や挨拶", "enabled": true },
+    { "id": "idle", "label": "待機", "description": "何もしていない時", "enabled": true },
+    { "id": "click", "label": "クリック反応", "description": "クリック時", "enabled": true },
+    { "id": "morning", "label": "朝", "enabled": true },
+    { "id": "afternoon", "label": "昼", "enabled": true },
+    { "id": "evening", "label": "夕方", "enabled": true },
+    { "id": "night", "label": "夜", "enabled": true },
+    { "id": "lateNight", "label": "深夜", "enabled": true },
+    { "id": "hourly", "label": "時報", "enabled": true },
+    { "id": "breakReminder", "label": "休憩促し", "enabled": true },
+    { "id": "encourage", "label": "励まし", "enabled": true },
+    { "id": "system", "label": "システム通知", "enabled": true }
+  ],
+  "entries": [
+    { "id": "click-1", "categoryId": "click", "text": "呼んだ？", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "click-2", "categoryId": "click", "text": "なになに？", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "click-3", "categoryId": "click", "text": "今日もここにいるよ。", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "morning-1", "categoryId": "morning", "text": "おはよー。今日も起きたね。", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "morning-2", "categoryId": "morning", "text": "朝だよ。無理せず始めよっか。", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "afternoon-1", "categoryId": "afternoon", "text": "お昼だよ。ちゃんと休憩してる？", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "evening-1", "categoryId": "evening", "text": "今日もだいぶ頑張ったね。", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "night-1", "categoryId": "night", "text": "夜だよ。まだ作業する？", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "latenight-1", "categoryId": "lateNight", "text": "こんな時間まで起きてるの？", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "click-latenight-2", "categoryId": "lateNight", "text": "夜はこれからって顔してるね。", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "click-latenight-3", "categoryId": "lateNight", "text": "無理しすぎないでね？", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "click-latenight-4", "categoryId": "lateNight", "text": "まだ作業するの？ちょっと休憩も挟も？", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "click-latenight-5", "categoryId": "lateNight", "text": "目、しょぼしょぼしてない？", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "click-generic-4", "categoryId": "click", "text": "はいはい、聞いてるよ。", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "click-generic-5", "categoryId": "click", "text": "呼ばれた気がした。", "enabled": true, "weight": 1, "trigger": "click", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "idle-generic-1", "categoryId": "idle", "text": "ふぅ、ちょっと一息つく？", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "idle-generic-2", "categoryId": "idle", "text": "今のうちに水分補給しよっか。", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "idle-generic-3", "categoryId": "idle", "text": "静かだね。作業中かな？", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "idle-generic-4", "categoryId": "idle", "text": "無理なくいこうね。", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "idle-latenight-1", "categoryId": "lateNight", "text": "夜の作業って集中できるけど、休憩も忘れないでね。", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "idle-latenight-2", "categoryId": "lateNight", "text": "そろそろ肩まわそっか。", "enabled": true, "weight": 1, "trigger": "idle", "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "hourly-1", "categoryId": "hourly", "text": "{hour}時だよ。", "enabled": true, "weight": 1, "trigger": "hourly", "minute": 0, "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "hourly-2", "categoryId": "hourly", "text": "そろそろ時間確認しよっか。{hour}時だよ。", "enabled": true, "weight": 1, "trigger": "hourly", "minute": 0, "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" },
+    { "id": "hourly-3", "categoryId": "hourly", "text": "{hour}時になったよ。区切りつける？", "enabled": true, "weight": 1, "trigger": "hourly", "minute": 0, "createdAt": "2026-04-28T00:00:00.000Z", "updatedAt": "2026-04-28T00:00:00.000Z" }
+  ]
+}

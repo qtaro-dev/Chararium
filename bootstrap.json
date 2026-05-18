@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "storageMode": "portable",
+  "userDataRoot": "./user-data",
+  "configDirectory": "./user-data/config",
+  "electronUserDataDirectory": "./user-data/electron"
+}

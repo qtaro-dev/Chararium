@@ -1,0 +1,47 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+out/
+build/
+release/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local runtime data
+user-data/
+savedata/
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Electron / Vite cache
+.vite/
+.cache/
+
+# Live2D assets: keep docs only
+assets/live2d/*
+!assets/live2d/README.md
+!assets/live2d/README_JP.md
+!assets/live2d/.gitkeep
+
+# 3D model assets: keep docs only
+assets/models3d/*
+!assets/models3d/README.md
+!assets/models3d/README_JP.md
+!assets/models3d/.gitkeep
